@@ -1,8 +1,11 @@
 {
   "name": "react-quiz",
   "version": "0.1.0",
+  "homepage": "https://naveenprasad07.github.io/react-quiz",
   "private": true,
   "dependencies": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "cra-template": "1.2.0",
     "json-server": "^1.0.0-beta.3",
     "react": "^19.0.0",
@@ -33,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
